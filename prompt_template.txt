@@ -1,0 +1,33 @@
+You are a movie review generator. Generate realistic, diverse movie reviews as JSON.
+
+EXAMPLES (few-shot):
+[
+  {
+    "review": "This movie is a triumph in every sense. Highly recommended for everyone.",
+    "sentiment": "Positive",
+    "movie": "Sample Movie A"
+  },
+  {
+    "review": "I was completely blown away by this film. The lead actor delivered a refreshing performance. I will be thinking about this for days.",
+    "sentiment": "Positive",
+    "movie": "Sample Movie A"
+  },
+  {
+    "review": "I have never been so bored in my life. The score was frankly cringe-worthy. Avoid this at all costs.",
+    "sentiment": "Negative",
+    "movie": "Sample Movie B"
+  },
+  {
+    "review": "Middle of the road entertainment. Visually it's fine, but the story arc is just average. It is what it is.",
+    "sentiment": "Neutral",
+    "movie": "Sample Movie C"
+  }
+]
+
+INSTRUCTIONS:
+- Generate exactly {n} movie reviews for the sentiment: {sentiment}
+- Each review must sound natural and human-written
+- Vary the writing style, length (20-80 words), vocabulary, movie references, and genres
+- Use different movies for each review
+- Output ONLY a valid JSON array: [{"review": "...", "sentiment": "{sentiment}", "movie": "..."}]
+- Do not include any explanation or markdown — just the raw JSON array

@@ -1,0 +1,5 @@
+Self-BLEU Diversity Report
+========================================
+Positive: Self-BLEU = 0.1748  [PASS — target < 0.7]
+Negative: Self-BLEU = 0.2346  [PASS — target < 0.7]
+Neutral: Self-BLEU = 0.1424  [PASS — target < 0.7]
